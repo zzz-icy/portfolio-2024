@@ -6,6 +6,7 @@ const Header = () => {
 	return (
 		<nav>
 			<div className='container brackets'>
+				{/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
 				<a
 					className='main-nav-link'
 					href='#'
