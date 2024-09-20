@@ -4,10 +4,14 @@ import AltoScreenshots from "../../assets/images/projects/alto-screenshots.png"
 import AltoWeb from "../../assets/images/projects/ridealto-web.png"
 import Aviva from "../../assets/images/projects/aviva.png"
 import AdvancedCSS from "../../assets/images/projects/advanced-css.png"
+import Omnifood from "../../assets/images/projects/omnifood.png"
 
 const Projects = () => {
 	return (
 		<section id='projects'>
+			<h2 style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}>
+				Projects
+			</h2>
 			<div className='projects-container'>
 				<div className='project'>
 					<img
@@ -59,6 +63,19 @@ const Projects = () => {
 						className='project-link'
 					>
 						Advanced CSS and SASS Practice
+					</a>
+				</div>
+				<div className='project'>
+					<img
+						src={Omnifood}
+						height={250}
+						alt='HTML CSS Practice'
+					/>
+					<a
+						href='https://cosmic-beignet-295e3d.netlify.app'
+						className='project-link'
+					>
+						HTML CSS Practice
 					</a>
 				</div>
 			</div>

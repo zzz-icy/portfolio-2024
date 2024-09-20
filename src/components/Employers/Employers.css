@@ -1,4 +1,4 @@
-.employers {
+.employers-container {
 	margin: 40px 40px;
 	display: grid;
 	grid-template-columns: 2fr 2fr 2fr;

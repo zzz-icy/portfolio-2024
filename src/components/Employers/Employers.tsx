@@ -10,39 +10,45 @@ const Employers = () => {
 		<section
 			id='employers'
 			className='employers'
+			style={{ marginTop: "80px" }}
 		>
-			<div className='employers-item'>
-				<figure>
-					<img
-						src={AvivaLogo}
-						className=''
-						alt='aviva logo'
-						style={{ height: 60 }}
-					/>
-				</figure>
-				<p>Studio Aviva Jifei Xue, LLC</p>
-			</div>
-			<div className='employers-item'>
-				<figure>
-					<img
-						src={AltoLogo}
-						className=''
-						alt='aviva logo'
-						style={{ height: 60 }}
-					/>
-				</figure>
-				<p>Alto Technology LLC</p>
-			</div>
-			<div className='employers-item'>
-				<figure>
-					<img
-						src={JDALogo}
-						className=''
-						alt='aviva logo'
-						style={{ height: 60 }}
-					/>
-				</figure>
-				<p>Alto Technology LLC</p>
+			<h2 style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}>
+				Past & Current Employers
+			</h2>
+			<div className='employers-container '>
+				<div className='employers-item'>
+					<figure>
+						<img
+							src={AvivaLogo}
+							className=''
+							alt='aviva logo'
+							style={{ height: 60 }}
+						/>
+					</figure>
+					<p>Studio Aviva Jifei Xue, LLC</p>
+				</div>
+				<div className='employers-item'>
+					<figure>
+						<img
+							src={AltoLogo}
+							className=''
+							alt='aviva logo'
+							style={{ height: 60 }}
+						/>
+					</figure>
+					<p>Alto Technology LLC</p>
+				</div>
+				<div className='employers-item'>
+					<figure>
+						<img
+							src={JDALogo}
+							className=''
+							alt='aviva logo'
+							style={{ height: 60 }}
+						/>
+					</figure>
+					<p>Alto Technology LLC</p>
+				</div>
 			</div>
 		</section>
 	)

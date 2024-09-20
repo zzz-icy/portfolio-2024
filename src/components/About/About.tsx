@@ -1,5 +1,6 @@
 import React from "react"
 import "./About.css"
+import GithubCommits from "../../assets/images/github-commits.png"
 const About = () => {
 	return (
 		<section
@@ -20,6 +21,11 @@ const About = () => {
 				<br />
 				Let’s make something awesome together!
 			</p>
+			<img
+				src={GithubCommits}
+				className='github'
+				alt='GithubCommits'
+			/>
 		</section>
 	)
 }

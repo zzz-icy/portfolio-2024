@@ -12,12 +12,12 @@ const Header = () => {
 				>
 					About Me
 				</a>
-				<a
+				{/* <a
 					className='main-nav-link'
 					href='#experiences'
 				>
 					Experiences
-				</a>
+				</a> */}
 				<a
 					className='main-nav-link'
 					href='#projects'

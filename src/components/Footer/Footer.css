@@ -1,0 +1,22 @@
+.footer {
+	padding: 10px;
+	background-color: #333;
+	color: white;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.name {
+	font-weight: bold;
+}
+
+.footer-link:link,
+.footer-link:visited {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #767676;
+}
+.footer-link:hover,
+.footer-link:active {
+	color: #555;
+}

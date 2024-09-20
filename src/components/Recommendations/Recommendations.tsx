@@ -13,7 +13,11 @@ const Recommendations = () => {
 			className='recommendations-section'
 		>
 			<div className='recommendations-container'>
-				<span className='subheading'>What people say about me</span>
+				<h2
+					style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}
+				>
+					Testimonials - Nice things people say about me
+				</h2>
 				{/* <h2 className='heading-secondary'>What people say about me</h2> */}
 				{/* MICHAEL	 */}
 				<div className='recommendations'>
