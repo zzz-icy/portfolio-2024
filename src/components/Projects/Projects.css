@@ -1,0 +1,33 @@
+.projects-container {
+	padding: 20px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	row-gap: 40px;
+	column-gap: 20px;
+}
+
+.project-link:link,
+.project-link:visited {
+	text-decoration: none;
+	font-size: 1.2rem;
+	color: #767676;
+}
+.project-link:hover,
+.project-link:active {
+	color: #555;
+}
+.project {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	padding: 15px 5px;
+	gap: 10px;
+	transition: 0.3s;
+	box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+}
+
+.project:hover {
+	transform: translateY(-5px);
+}
