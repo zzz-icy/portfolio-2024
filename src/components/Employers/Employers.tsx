@@ -25,7 +25,7 @@ const Employers = () => {
 							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Studio Aviva Jifei Xue, LLC</p>
+					<p>Studio Aviva Jifei Xue</p>
 				</div>
 				<div className='employers-item'>
 					<figure>
@@ -36,7 +36,7 @@ const Employers = () => {
 							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Alto Technology LLC</p>
+					<p>Alto Technology</p>
 				</div>
 				<div className='employers-item'>
 					<figure>
@@ -47,7 +47,7 @@ const Employers = () => {
 							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Alto Technology LLC</p>
+					<p>Blue Yonder</p>
 				</div>
 			</div>
 		</section>
