@@ -56,3 +56,28 @@
 	line-height: 1.2;
 	margin-bottom: 9.6rem;
 }
+
+@media (max-width: 70rem) {
+	.recommendations {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+
+		/* row-gap: 4.8rem; */
+		/* column-gap: 1rem; */
+	}
+	.recommendations-container {
+		padding: 2rem;
+	}
+}
+
+@media (max-width: 43rem) {
+	.recommendations {
+		display: flex;
+		flex-direction: column;
+		/* row-gap: 4.8rem; */
+		/* column-gap: 1rem; */
+	}
+	.recommendations-container {
+		padding: 0.8rem;
+	}
+}
