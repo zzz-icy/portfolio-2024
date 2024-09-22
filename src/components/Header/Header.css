@@ -1,9 +1,11 @@
-div.container {
+div.nav-container {
 	margin: 0 auto;
 	padding: 5em 3em;
 	text-align: center;
 	color: #777;
 	letter-spacing: 1.5px;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 }
 .main-nav-link:link,
 .main-nav-link:visited {
@@ -47,4 +49,23 @@ div.brackets a:hover:before,
 div.brackets a:hover:after {
 	opacity: 1;
 	transform: translateX(0px);
+}
+
+@media (max-width: 70rem) {
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: 25px;
+	}
+}
+
+@media (max-width: 44rem) {
+	div.nav-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+		padding: 2rem;
+	}
+	.main-nav-link:link,
+	.main-nav-link:visited {
+		font-size: 22px;
+	}
 }
