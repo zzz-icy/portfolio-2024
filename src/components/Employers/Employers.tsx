@@ -12,42 +12,37 @@ const Employers = () => {
 			className='employers'
 			style={{ marginTop: "80px" }}
 		>
-			<h2 style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}>
-				Past & Current Employers
-			</h2>
+			<h2 className='subheader'>Past & Current Employers</h2>
 			<div className='employers-container '>
 				<div className='employers-item'>
 					<figure>
 						<img
 							src={AvivaLogo}
-							className=''
+							className='logo'
 							alt='aviva logo'
-							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Studio Aviva Jifei Xue</p>
+					<figcaption>Studio Aviva Jifei Xue</figcaption>
 				</div>
 				<div className='employers-item'>
 					<figure>
 						<img
 							src={AltoLogo}
-							className=''
+							className='logo'
 							alt='aviva logo'
-							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Alto Technology</p>
+					<figcaption>Alto Technology</figcaption>
 				</div>
 				<div className='employers-item'>
 					<figure>
 						<img
 							src={JDALogo}
-							className=''
+							className='logo'
 							alt='aviva logo'
-							style={{ height: 60 }}
 						/>
 					</figure>
-					<p>Blue Yonder</p>
+					<figcaption>Blue Yonder</figcaption>
 				</div>
 			</div>
 		</section>

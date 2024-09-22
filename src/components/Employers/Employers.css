@@ -1,12 +1,41 @@
-.employers-container {
-	margin: 40px 40px;
-	display: grid;
-	grid-template-columns: 2fr 2fr 2fr;
-	color: #777;
+.employers {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+.employers-container {
+	min-width: 250px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	color: #777;
+}
+h2.subheader {
+	color: #777;
+	text-align: center;
+	margin-bottom: 40px;
+}
 .employers-item {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
+}
+.logo {
+	height: 60px;
+}
+
+@media (max-width: 70rem) {
+	.logo {
+		height: 50px;
+	}
+}
+
+@media (max-width: 44rem) {
+	.logo {
+		height: 40px;
+	}
+	figcaption {
+		font-size: 14px;
+	}
 }

@@ -12,9 +12,7 @@ const Projects = () => {
 			id='projects'
 			className='projects'
 		>
-			<h2 style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}>
-				Projects
-			</h2>
+			<h2 className='subheader'>Projects</h2>
 			<div className='projects-container'>
 				<div className='project-item'>
 					<div className='image-container'>
