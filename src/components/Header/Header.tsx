@@ -35,7 +35,7 @@ const Header = () => {
 					className='main-nav-link'
 					href='#recommendations'
 				>
-					Recommendations
+					Testimonials
 				</a>
 			</div>
 		</nav>
