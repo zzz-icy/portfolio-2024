@@ -69,3 +69,12 @@ div.brackets a:hover:after {
 		font-size: 22px;
 	}
 }
+div.about-container {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+}
+img.me {
+	height: 300px;
+	align-self: flex-end;
+}
