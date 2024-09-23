@@ -1,10 +1,43 @@
 import React from "react"
-import "./Projects.css"
+import "./Projects.scss"
 import AltoScreenshots from "../../assets/images/projects/alto-screenshots.png"
 import AltoWeb from "../../assets/images/projects/ridealto-web.png"
 import Aviva from "../../assets/images/projects/aviva.png"
 import AdvancedCSS from "../../assets/images/projects/advanced-css.png"
 import Omnifood from "../../assets/images/projects/omnifood.png"
+const config = [
+	{
+		imgSrc: Aviva,
+		alt: "Aviva Jifei Xue",
+		link: "https://avivajifeixue.com/",
+		label: "Studio Aviva Jifei Xue (Next.js, Node.js, Express.js, Firebase)",
+		// color: "#f8f9f9",
+	},
+	{
+		imgSrc: AltoScreenshots,
+		alt: "Alto Passenger App Screenshots",
+		link: "https://apps.apple.com/us/app/alto/id1442044302",
+		label: "Alto Passenger Mobile App (React Native)",
+	},
+	{
+		imgSrc: AltoWeb,
+		alt: "Alto Passenger Web App",
+		link: "https://ridealto.app/",
+		label: "Alto Passenger Web App (Angular)",
+	},
+	{
+		imgSrc: AdvancedCSS,
+		alt: "AdvancedCSS",
+		link: "https://advanced-css-and-sass.netlify.app",
+		label: "Studio Aviva Jifei Xue (Next.js, Node.js, Express.js, Firebase)",
+	},
+	{
+		imgSrc: Omnifood,
+		alt: "Omnifood",
+		link: "https://cosmic-beignet-295e3d.netlify.app",
+		label: "HTML CSS Practice",
+	},
+]
 
 const Projects = () => {
 	return (
@@ -14,87 +47,39 @@ const Projects = () => {
 		>
 			<h2 className='subheader'>Projects</h2>
 			<div className='projects-container'>
-				<div className='project-item'>
-					<div className='image-container'>
-						<img
-							className='project-image'
-							src={Aviva}
-							// height={400}
-							alt='alto web'
-						/>
-					</div>
-					<a
-						href='https://avivajifeixue.com/'
-						className='project-link'
+				{config.map((item, index) => (
+					<div
+						className='project-item'
+						style={{ backgroundColor: "white" }}
 					>
-						Studio Aviva Jifei Xue (Next.js, Node.js, Express.js, Firebase)
-					</a>
-				</div>
-				<div className='project-item'>
-					<div className='image-container'>
-						<img
-							className='project-image'
-							src={AltoScreenshots}
-							// height={400}
-							alt='alto mobile'
-						/>
-					</div>
-					<a
-						href='https://apps.apple.com/us/app/alto/id1442044302'
-						className='project-link'
-					>
-						Alto Passenger Mobile App (React Native)
-					</a>
-				</div>
-				<div className='project-item'>
-					<div className='image-container'>
-						<img
-							className='project-image'
-							src={AltoWeb}
-							// height={400}
-							alt='alto web'
-						/>
-					</div>
-					<a
-						href='https://ridealto.app/'
-						className='project-link'
-					>
-						Alto Passenger Web App (Angular)
-					</a>
-				</div>
+						<a
+							href='https://avivajifeixue.com/'
+							className='project-link'
+						>
+							{item.label}
+						</a>
+						<div className='image-container'>
+							<img
+								className='project-image'
+								src={item.imgSrc}
+								// height={400}
+								alt={item.alt}
+							/>
 
-				<div className='project-item'>
-					<div className='image-container'>
-						<img
-							className='project-image'
-							src={AdvancedCSS}
-							// height={250}
-							alt='AdvancedCSS'
-						/>
+							<div className='icon'>
+								<a
+									href={item.link}
+									className='iconBox'
+									style={{ backgroundColor: "#f8f9f9" }}
+								>
+									<span className='material-symbols-outlined'>
+										arrow_outward
+									</span>
+								</a>
+							</div>
+						</div>
 					</div>
-					<a
-						href='https://advanced-css-and-sass.netlify.app'
-						className='project-link'
-					>
-						Advanced CSS and SASS Practice
-					</a>
-				</div>
-				<div className='project-item'>
-					<div className='image-container'>
-						<img
-							className='project-image'
-							src={Omnifood}
-							// height={250}
-							alt='HTML CSS Practice'
-						/>
-					</div>
-					<a
-						href='https://cosmic-beignet-295e3d.netlify.app'
-						className='project-link'
-					>
-						HTML CSS Practice
-					</a>
-				</div>
+				))}
 			</div>
 		</section>
 	)
