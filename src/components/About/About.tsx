@@ -1,6 +1,5 @@
 import React from "react"
 import "./About.css"
-import GithubCommits from "../../assets/images/github-commits.png"
 import Me from "../../assets/images/me.jpg"
 
 const About = () => {
@@ -31,12 +30,6 @@ const About = () => {
 					alt='GithubCommits'
 				/>
 			</div>
-
-			<img
-				src={GithubCommits}
-				className='github'
-				alt='GithubCommits'
-			/>
 		</section>
 	)
 }

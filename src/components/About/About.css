@@ -9,13 +9,6 @@
 	padding: 20px 150px;
 }
 
-.github {
-	transition: 0.3s;
-	width: 80vw;
-}
-.github:hover {
-	transform: scale(1.1);
-}
 @media (max-width: 70rem) {
 	.about {
 		min-width: 400px;
@@ -31,4 +24,7 @@
 		font-size: 20px;
 		/* font-size: 1.5rem; */
 	}
+}
+
+div.about-container {
 }

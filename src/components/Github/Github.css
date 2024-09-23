@@ -1,0 +1,14 @@
+section.github {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 10px auto 20px auto;
+}
+
+img.github {
+	transition: 0.3s;
+	width: 65vw;
+}
+img.github:hover {
+	transform: scale(1.1);
+}
