@@ -5,6 +5,7 @@ import AltoWeb from "../../assets/images/projects/ridealto-web.png"
 import Aviva from "../../assets/images/projects/aviva.png"
 import AdvancedCSS from "../../assets/images/projects/advanced-css.png"
 import Omnifood from "../../assets/images/projects/omnifood.png"
+import Codepen from "../../assets/images/projects/codepen.png"
 const config = [
 	{
 		imgSrc: Aviva,
@@ -36,6 +37,13 @@ const config = [
 		alt: "Omnifood",
 		link: "https://cosmic-beignet-295e3d.netlify.app",
 		label: "HTML CSS Practice",
+	},
+	{
+		imgSrc: Codepen,
+		alt: "Vertex and Edges",
+		link: "https://codepen.io/Zzz-icy/pen/MpMEMd",
+		label:
+			"I believe it's worth sharing this project marking the inception of my journey as a front-end engineer. This initial spark of passion has since evolved into a more refined and dedicated pursuit.",
 	},
 ]
 
