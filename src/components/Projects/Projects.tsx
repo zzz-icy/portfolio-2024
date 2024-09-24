@@ -29,7 +29,7 @@ const config = [
 		imgSrc: AdvancedCSS,
 		alt: "AdvancedCSS",
 		link: "https://advanced-css-and-sass.netlify.app",
-		label: "Studio Aviva Jifei Xue (Next.js, Node.js, Express.js, Firebase)",
+		label: "Advanced CSS Practice",
 	},
 	{
 		imgSrc: Omnifood,
@@ -51,6 +51,7 @@ const Projects = () => {
 					<div
 						className='project-item'
 						style={{ backgroundColor: "white" }}
+						key={item.label}
 					>
 						<a
 							href='https://avivajifeixue.com/'
@@ -71,6 +72,7 @@ const Projects = () => {
 									href={item.link}
 									className='iconBox'
 									style={{ backgroundColor: "#f8f9f9" }}
+									target='_blank'
 								>
 									<span className='material-symbols-outlined'>
 										arrow_outward

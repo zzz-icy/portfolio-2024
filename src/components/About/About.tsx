@@ -24,11 +24,11 @@ const About = () => {
 					<br />
 					Let’s make something awesome together!
 				</p>
-				<img
+				{/* <img
 					src={Me}
 					className='me'
 					alt='GithubCommits'
-				/>
+				/> */}
 			</div>
 		</section>
 	)
