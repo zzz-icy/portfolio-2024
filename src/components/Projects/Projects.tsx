@@ -73,6 +73,7 @@ const Projects = () => {
 									className='iconBox'
 									style={{ backgroundColor: "#f8f9f9" }}
 									target='_blank'
+									rel='noreferrer'
 								>
 									<span className='material-symbols-outlined'>
 										arrow_outward
