@@ -50,7 +50,7 @@ const Projects = () => {
 				{config.map((item, index) => (
 					<div
 						className='project-item'
-						style={{ backgroundColor: "white" }}
+						style={{ backgroundColor: "#f8f9f9" }}
 						key={item.label}
 					>
 						<a

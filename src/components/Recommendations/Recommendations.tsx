@@ -16,7 +16,7 @@ const Recommendations = () => {
 				<h2
 					style={{ color: "#777", textAlign: "center", marginBottom: "70px" }}
 				>
-					Testimonials - Nice things people say about me
+					&#x1F49B; Nice Things People Say About Me &#x1F49B;
 				</h2>
 				{/* <h2 className='heading-secondary'>What people say about me</h2> */}
 				{/* MICHAEL	 */}
