@@ -1,7 +1,6 @@
 import React from "react"
 
 import "./Header.css"
-import About from "../About/About.tsx"
 
 const Header = () => {
 	return (
