@@ -43,7 +43,7 @@ const config = [
 		alt: "Vertex and Edges",
 		link: "https://codepen.io/Zzz-icy/pen/MpMEMd",
 		label:
-			"I believe it's worth sharing this project marking the inception of my journey as a front-end engineer. This initial spark of passion has since evolved into a more refined and dedicated pursuit.",
+			"I believe it's worth sharing this project marking the inception of my journey as a front-end developer. This initial spark of passion has since evolved into a more refined and dedicated pursuit.",
 	},
 ]
 
