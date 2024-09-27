@@ -46,7 +46,7 @@ const config = [
 			"I believe it's worth sharing this project marking the inception of my journey as a front-end developer. This initial spark of passion has since evolved into a more refined and dedicated pursuit.",
 	},
 ]
-
+console.log()
 const Projects = () => {
 	return (
 		<section
